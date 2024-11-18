@@ -292,7 +292,7 @@ def experiment_1(data, losses, loss_weights, learning_rate, nb_epochs,
 
         train_indices = util.random_permutation_with_groups(train_indices, cfg.nb)
         vald_indices = util.random_permutation_with_groups(vald_indices, cfg.nb)
-        test_indices = util.random_permutation_with_groups(test_indices, cfg.nb)[90:]
+        test_indices = util.random_permutation_with_groups(test_indices, cfg.nb)
 
         train_files=np.empty(len(train_indices), dtype = "S70")
         vald_files=np.empty(len(vald_indices), dtype = "S70")
