@@ -2,6 +2,9 @@
 This repository contains the implementation of a groupwise multiresolution network for deformable medical image registration.
 The framework was implemented using Keras with Tensorflow backend.
 
+If you use our code in your work please cite the following paper:
+Strittmatter, A., Weis, M. & Zöllner, F.G. A groupwise multiresolution network for DCE-MRI image registration. Sci Rep 15, 9891 (2025). https://doi.org/10.1038/s41598-025-94275-9
+
 # Manual
 Usage:
 1. In config.py:
